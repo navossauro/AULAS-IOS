@@ -1,1 +1,1 @@
-Aulas da IOS (Instituto Da Oportunidade Social)
+Aulas do IOS (Instituto Da Oportunidade Social)
