@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Trabalhando com formulários</h1>
+    <p>Formulario simples</p>
+    <form action="">
+      <p>
+        <label for="inome">Nome:</label>
+        <!--"Type" - é o tipo do texto
+                "Name" - é o nome do campo
+                "id" - identificador unico            
+            -->
+        <input type="text" name="nome" id="inome" />
+      </p>
+      <p>
+        <label for="isobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome" />
+      </p>
+      
+      <p>
+        <label for="iemail">E-mail:</label>
+        <input type="email" name="email" id="iemail" />
+      </p>
+    
+      <!--iNPUT DO TIPO SENHA
+          CARACTERISTICA: QUANDO DIGITADO A SENHA FICA ESCONDIDA  
+      -->
+      <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha">
+      </p>
+      <p>
+        Cor Favorita: <br>
+        <label for="iazul">Azul</label>
+        <input type="radio" name="cor" id="iazul">
+        
+        <label for="irosa">Rosa</label>
+        <input type="radio" name="cor" id="irosa">
+        
+        <label for="itodas">Todas</label>
+        <input type="radio" name="cor" id="itodas">
+      </p>
+      <p>
+        Gosto musical:
+        <input type="checkbox" name="trap" id="itrap">
+        <label for="itrap">Trap</label>
+      </p>
+      <p>
+        Curso:
+        <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Desenvolvimento Web</option>
+            <option value="">Suporte em Ti</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="imensagem">Mensagem</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </p>   
+
+
+      <!--INPUT DE BOTAO PARA ENVIAR OS DADOS-->
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>

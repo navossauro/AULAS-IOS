@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Construindo uma tabela</h1>
+    <p>Tabela simples:</p>
+    <!--
+        TABLE
+            Thead
+                tr, th, td
+            tbody
+                tr, th ,td
+            tfoot
+                tr, th, td
+
+            SIGNIFICADO DAS TAGS:
+            TABLE = TABELA
+            THEAD = CABEÇALHO DA TABELA
+            TBODY = CORPO DA TABELA
+            TFOOD = RODAPÉ DA TABELA
+            TR = LINHAS DA TABELA
+            TH = TITULO DA TABELA
+            TD = DADOS DA TABELA
+                
+            ATRIBUTOS:
+
+            COLSPAN = MESCLAR COLUNA
+            ROLSPAN = MESCLAR LINHAS
+    -->
+            <table border="5" width="50%">
+                <tr>
+                    <th>NOME</th>
+                    <th>SOBRENOME</th>
+                    <th>GOSTO MUSICAL</th> 
+                </tr>
+                <tr>
+                    <td>GABRIEL</td>
+                    <td>NAVAS</td>
+                    <td>TODOS</td>
+                </tr>
+                <tr>
+                    <td>LUCAS</td>
+                    <td>MELO</td>
+                    <td>ECLETICO</td>
+                </tr>
+                <tr>
+                    <td>ENZO</td>
+                    <td>FONTELES</td>
+                    <td>TODOS OS EXISTENTES</td>
+                </tr>
+                <tr>
+                    <td>LARISSA</td>
+                    <td>SANTOS</td>
+                    <td>ReB</td>
+                </tr>
+            </table>
+            <p>Tabela Estruturada:</p>
+
+            <table border="5" width="50%">
+                <caption>Tentando guardar dinheiro em 2026</caption>
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th>No bolso</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>R$156,95</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>R$200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>R$80,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Saldo: R$436,95</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table border="2" width="50%">
+                <caption>Tabela de notas</caption>
+                <thead>
+                    <tr>
+                        <th>NOME</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>JAVASCRIPT</th>
+                        <th>A/R</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GABRIEL NAVAS</td>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>GABRIEL O.</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>LUCAS M.</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>GUSTAVO H.</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>ENZO FONTELES</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>DORMIU NAS AULAS</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+</body>
+</html>
